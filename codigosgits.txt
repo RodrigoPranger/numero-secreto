@@ -1,3 +1,8 @@
 git restore <documento> = apaga todas as alterações
 
+git restore --staged <documento> = apaga tudo que está na staged
+
+git restore --source= <id commit> <documento que quer resurar> = restaura um arquivo para o commit desejado
+
+
 
