@@ -1,0 +1,75 @@
+git add . = Adiciona todos os arquivos de uma pasta
+
+ssh-keygen -t ed25519 -C "rodrigo.pranger@gmail.com" = para criar uma chave ssh no pc
+
+git clone <link do repositorio> = Para baixar um repoistorio publico
+
+git commit -m "Mensagem da alteração" = para explicar o que foi alterado na versao
+
+git log = mostra todas as alterações feitas e o usuario que fez essas alterações
+
+git log --oneline = mostra apenas as mensagens das alterações
+
+git log show <id do commit> = mostra as informações completas do commit
+
+git push = envia um arquivo para o github
+
+git pull = traz o arquivo remoto para o seu computador
+
+git revert = volta no commit anterior
+
+git reset --hard = apaga um commit
+
+git commit --amend -m "msg correta" = Altera a mensagem do commit
+
+https://www.alura.com.br/artigos/escrever-bom-readme = Fazendo um arquivo ReadME bonito
+
+https://www.alura.com.br/artigos/como-criar-um-readme-para-seu-perfil-github = fazendo um redme de perfil legal
+
+No terminal, execute: git log > logs.txt para criar um arquivo chamado logs.txt contendo os logs de commits
+
+HEAD é como se chama o commit mais recente
+
+git diff = traz todas as modificações que você fez antes de commitar e compara com o HEAD
+
+git diff <id commit> .. <outro id commit> = Compara o que foi alterado entre os commits
+
+git show = mostra o que foi alterado em um commit
+
+git branch = mostra qauntas branchs vc possui
+
+git switch -c <nome da nova branch> = cria e começa a usar a nova branch (-c é de create)
+
+git merge <branch> = uni a branch main com a branch que você colocar como parametro
+
+git branch -d <branch> = remove a branch que passou por parametro
+
+git stach = engaveta as alterações para trabalhar depois
+
+git stash pop = devolve as alterações que vc estava trabalhando
+
+git stash list = lista todas as alterações engavetadas
+
+git stash clear = limpa o git stash list
+
+git stash push -m "<msg>" = Adiciona uma alteração na engavetação com um nome desejado
+
+
+git status = mostra em qual branch você está e o arquivo que foi alterado
+
+git push origin :<branch> = remove do repositorio do GitHub
+
+git restore <documento> = apaga todas as alterações
+
+git restore --staged <documento> = apaga tudo que está na staged
+
+git restore --source= <id commit> <documento que quer resurar> = restaura um arquivo para o commit desejado
+
+git tag <nome da tag> = cria uma tag, como se fosse uma v1 do programa, como se fosse um checkpoint
+
+git tag <nome da tag> -m <msg da tag> = cria uma tag anotada
+
+git cherry-pick <id do commit> = pega as alterações feitas em outras branchs
+
+git blame = mostra quem foi que alterou e fez os commits em um documento
+
